@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tas" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=16-00362\SQLEXPRESS;AttachDbFilename=&quot;C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA\tas.mdf&quot;;Integrated Security=True" SettingsObjectName="CRM.Properties.Settings" SettingsPropertyName="tasConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.mytable" Member="mytable">
+    <Type Name="mytable">
+      <Column Name="first_name" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="last_name" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nick_name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="phone_number" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="phone_number_cat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="phone_number2" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="phone_number2_cat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NChar(255)" CanBeNull="true" />
+      <Column Name="adress" Type="System.String" DbType="NChar(255)" CanBeNull="true" />
+      <Column Name="describe" Type="System.String" DbType="NChar(255)" CanBeNull="true" />
+      <Column Name="icon" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="displayed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

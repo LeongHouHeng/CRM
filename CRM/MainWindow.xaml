@@ -1,0 +1,19 @@
+﻿<Window x:Class="CRM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="525">
+    <Grid>
+        <Button x:Name="SearchBtn" Content="Search" HorizontalAlignment="Left" Margin="135,9,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="AddBtn" Content="Add" HorizontalAlignment="Left" Margin="353,10,0,0" VerticalAlignment="Top" Width="75" Click="AddBtn_Click"/>
+        <Button x:Name="RemoveBtn" Content="Remove" HorizontalAlignment="Left" Margin="433,10,0,0" VerticalAlignment="Top" Width="75" Click="RemoveBtn_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+        <ListView Height="382" HorizontalAlignment="Left" Margin="0,38,0,0" Name="lvTest" VerticalAlignment="Top" Width="518" BorderThickness="2" BorderBrush="#FFB4B4B4" SelectionChanged="lvTest_SelectionChanged" />
+        <Button x:Name="CheckBtn" Content="Check" HorizontalAlignment="Left" Margin="273,10,0,0" VerticalAlignment="Top" Width="75" Click="CheckBtn_Click"/>
+
+    </Grid>
+</Window>
